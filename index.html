@@ -1,0 +1,604 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="script.js"></script>
+  
+</head> 
+<body> 
+  
+  <!--header open --> 
+  <header class="text-gray-600 body-font">
+    <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
+      <a class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
+      
+          <img src="image/jaiwikl.png.png" width = "200
+          px" alt ="Jaiwik Biotech">
+        </svg>
+        <span class="ml-3 text-xl"></span>
+      </a>
+      <nav class="md:mr-auto md:ml-4 md:py-1 md:pl-4 md:border-l md:border-gray-400 flex flex-wrap items-center text-base justify-center" style="background-color: ;">
+        <a href="#" class="mr-5 hover:text-gray-900">About us</a>
+        <a href="#" class="mr-5 hover:text-gray-900">Mission and Vision</a>
+        <a href="#" class="mr-5 hover:text-gray-900">Our Products</a>
+        <a href="#" class="mr-5 hover:text-gray-900">PCP Pharma Franchise</a>
+        <a href="#" class="mr-5 hover:text-gray-900">Jaiwik Plant</a>
+        <a href="#" class="mr-5 hover:text-gray-900">Gallery</a>
+        <a href="#" class="mr-5 hover:text-gray-900">Contact Us</a>
+    </nav>
+    
+
+  
+      <button class="inline-flex items-center bg-gray-100 border-0 py-1 px-3 focus:outline-none hover:bg-gray-200 rounded text-base mt-4 md:mt-0">Enroll Now
+        <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-1" viewBox="0 0 24 24">
+          <path d="M5 12h14M12 5l7 7-7 7"></path> 
+        </svg>
+      </button>
+    </div> 
+  </header>
+ 
+  <!--header close  -->
+  <!--slider code -->
+
+  <div
+  id="carouselExampleIndicators" 
+  class="relative"
+  data-te-carousel-init
+  data-te-ride="carousel">
+  <!--Carousel indicators-->
+  <div
+    class="absolute bottom-0 left-0 right-0 z-[2] mx-[15%] mb-4 flex list-none justify-center p-0"
+    data-te-carousel-indicators>
+    <button
+      type="button"
+      data-te-target="#carouselExampleIndicators"
+      data-te-slide-to="0"
+      data-te-carousel-active
+      class="mx-[3px] box-content h-[3px] w-[30px] flex-initial cursor-pointer border-0 border-y-[10px] border-solid border-transparent bg-white bg-clip-padding p-0 -indent-[999px] opacity-50 transition-opacity duration-[600ms] ease-[cubic-bezier(0.25,0.1,0.25,1.0)] motion-reduce:transition-none"
+      aria-current="true"
+      aria-label="Slide 1"></button>
+    <button
+      type="button"
+      data-te-target="#carouselExampleIndicators"
+      data-te-slide-to="1"
+      class="mx-[3px] box-content h-[3px] w-[30px] flex-initial cursor-pointer border-0 border-y-[10px] border-solid border-transparent bg-white bg-clip-padding p-0 -indent-[999px] opacity-50 transition-opacity duration-[600ms] ease-[cubic-bezier(0.25,0.1,0.25,1.0)] motion-reduce:transition-none"
+      aria-label="Slide 2"></button>
+    <button
+      type="button"
+      data-te-target="#carouselExampleIndicators"
+      data-te-slide-to="2"
+      class="mx-[3px] box-content h-[3px] w-[30px] flex-initial cursor-pointer border-0 border-y-[10px] border-solid border-transparent bg-white bg-clip-padding p-0 -indent-[999px] opacity-50 transition-opacity duration-[600ms] ease-[cubic-bezier(0.25,0.1,0.25,1.0)] motion-reduce:transition-none"
+      aria-label="Slide 3"></button>
+  </div>    
+
+  <!--Carousel items-->
+  <div
+    class="relative w-full overflow-hidden after:clear-both after:block after:content-['']">
+    <!--First item-->
+    <div
+      class="relative float-left -mr-[100%] w-full transition-transform duration-[600ms] ease-in-out motion-reduce:transition-none"
+      data-te-carousel-item
+      data-te-carousel-active>
+      <img
+        src="image/final javik (1) (1).jpg"
+        class="block w-full"
+        alt="Wild Landscape"/>
+    </div>
+    <!--Second item-->
+    <div
+      class="relative float-left -mr-[100%] hidden w-full transition-transform duration-[600ms] ease-in-out motion-reduce:transition-none"
+      data-te-carousel-item>
+      <img
+        src="image/plant image/WhatsApp Image 2023-08-18 at 4.31.10 PM.jpeg"
+        class="block w-full"
+        alt="Camera" />
+    </div>
+    <!--Third item-->
+    <div
+      class="relative float-left -mr-[100%] hidden w-full transition-transform duration-[600ms] ease-in-out motion-reduce:transition-none"
+      data-te-carousel-item>
+      <img
+        src="image/plant image/WhatsApp Image 2023-08-16 at 5.26.37 PM.jpeg"
+        class="block w-full"
+        alt="Exotic Fruits" />
+    </div>
+  </div>
+<!--Carousel controls - prev item-->
+  <button
+    class="absolute bottom-0 left-0 top-0 z-[1] flex w-[15%] items-center justify-center border-0 bg-none p-0 text-center text-white opacity-50 transition-opacity duration-150 ease-[cubic-bezier(0.25,0.1,0.25,1.0)] hover:text-white hover:no-underline hover:opacity-90 hover:outline-none focus:text-white focus:no-underline focus:opacity-90 focus:outline-none motion-reduce:transition-none"
+    type="button"
+    data-te-target="#carouselExampleIndicators"
+    data-te-slide="prev">
+    <span class="inline-block h-8 w-8">
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        fill="none"
+        viewBox="0 0 24 24"
+        stroke-width="1.5"
+        stroke="currentColor"
+        class="h-6 w-6">
+        <path
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          d="M15.75 19.5L8.25 12l7.5-7.5" />
+      </svg>
+    </span>
+    <span
+      class="!absolute !-m-px !h-px !w-px !overflow-hidden !whitespace-nowrap !border-0 !p-0 ![clip:rect(0,0,0,0)]"
+      >Previous</span
+    >
+  </button>
+  <!--Carousel controls - next item-->
+
+  <button
+    class="absolute bottom-0 right-0 top-0 z-[1] flex w-[15%] items-center justify-center border-0 bg-none p-0 text-center text-white opacity-50 transition-opacity duration-150 ease-[cubic-bezier(0.25,0.1,0.25,1.0)] hover:text-white hover:no-underline hover:opacity-90 hover:outline-none focus:text-white focus:no-underline focus:opacity-90 focus:outline-none motion-reduce:transition-none"
+    type="button"
+    data-te-target="#carouselExampleIndicators"
+    data-te-slide="next">
+    <span class="inline-block h-8 w-8">
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        fill="none"
+        viewBox="0 0 24 24"
+        stroke-width="1.5"
+        stroke="currentColor"
+        class="h-6 w-6">
+        <path
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          d="M8.25 4.5l7.5 7.5-7.5 7.5"/>
+      </svg>
+    </span>
+    <span
+      class="!absolute !-m-px !h-px !w-px !overflow-hidden !whitespace-nowrap !border-0 !p-0 ![clip:rect(0,0,0,0)]"
+      >Next </span>
+  </button>
+</div>
+  <!--hero section  -->
+  
+  
+  <section class="text-gray-600 body-font">
+    <div class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
+      <div class="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
+       <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900"><b>ABOUT US and WHAT WE ARE  </b>
+          <br class="hidden lg:inline-block">
+        </h1>
+        <p class="mb-8 leading-relaxed">Discover the visionary essence of Jaiwik Biotech, a trailblazing medicine manufacturing marvel. Fusing cutting-edge science with unwavering commitment, we craft remedies that breathe life into health. Rooted in innovation and quality, our journey transcends boundaries, redefining wellness through precision. At Jaiwik Biotech, we're not just makers of medicine – we're architects of well-being, forging a healthier future, one breakthrough at a time..</p> 
+        <p class="mb-8 leading-relaxed">Our legacy intertwines a profound understanding of life sciences with a dedication to humanity's well-being. With a steadfast pledge to excellence, Jaiwik Biotech envisions a healthier world, nurturing lives through our meticulous craftsmanship and unwavering pursuit of medical ingenuity.</p>
+        <div class="flex justify-center">
+          <button class="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">Learn more</button>
+          <!----<button class="ml-4 inline-flex text-gray-700 bg-gray-100 border-0 py-2 px-6 focus:outline-none hover:bg-gray-200 rounded text-lg">Button</button>-->
+        </div>
+      </div>
+      <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
+        <img class="object-cover object-center rounded" alt="hero" src="aboutimg.jpg">
+      </div>
+    </div>
+  </section>
+ <!--hero section end   -->
+ <!--our mission -->
+ <section class="text-gray-600 body-font">
+  <div class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
+    <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0">
+      <img class="object-cover object-center rounded" alt="hero" src="image/composition-with-person-working-human-resources.jpg">
+    </div>
+    <div class="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">
+      <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900"><b>OUR MISSION</b>
+        <br class="hidden lg:inline-block">
+      </h1>
+      <p class="mb-8 leading-relaxed">Our Mission is to provide the highest-quality end products to our customers along with ON-TIME DELIVERY & COMPETITIVE RATES. We will always strive to service our customer with the utmost integrity, and to their complete satisfaction. Our endeavor is to be the best in every aspect of our business by utilizing our core competencies, fostering a culture of trust, teamwork and responsibility.</p>
+      <p class="mb-8 leading-relaxed">At Jaiwik Biotech, our mission is to pioneer transformative advancements in medicine. We strive to innovate relentlessly, creating breakthrough therapies that uplift lives worldwide. </p>
+      <div class="flex justify-center">
+        <button class="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">Learn more</button>
+        <!--<button class="ml-4 inline-flex text-gray-700 bg-gray-100 border-0 py-2 px-6 focus:outline-none hover:bg-gray-200 rounded text-lg">Button</button>-->
+      </div>
+    </div>
+  </div>
+</section>
+<!--our vison-->
+<section class="text-gray-600 body-font">
+  <div class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
+    <div class="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
+     <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900"><b>OUR VISION </b>
+        <br class="hidden lg:inline-block">
+      </h1>
+      <p class="mb-8 leading-relaxed">Being aware of our social responsibility, we, as healthcare product suppliers, aim to be a leading company in the international arena by offering quality and safe products to our customers. We believe that each patient consumes our medicines with trust and confidence. Jaiwik Biotech Pvt Ltd will strive to maintain the image it has developed over the many years with its suppliers, employees and community as a company of excellence.</p> 
+      <p class="mb-8 leading-relaxed">Empowering global wellness through pioneering medical breakthroughs, propelling Jaiwik Biotech as a beacon of transformative healthcare solutions.</p>
+      <div class="flex justify-center">
+        <button class="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">Learn more</button>
+        <!----<button class="ml-4 inline-flex text-gray-700 bg-gray-100 border-0 py-2 px-6 focus:outline-none hover:bg-gray-200 rounded text-lg">Button</button>-->
+      </div>
+    </div>
+    <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
+      <img class="object-cover object-center rounded" alt="hero" src="image/businessman-big-office.jpg">
+    </div>
+  </div>
+</section>
+<!--OUR GOALS  -->
+<section class="text-gray-600 body-font">
+  <div class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
+    <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0">
+      <img class="object-cover object-center rounded" alt="hero" src="image/business-concept-with-team-close-up.jpg">
+    </div>
+    <div class="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">
+      <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900"><b>WHY US</b>
+        <br class="hidden lg:inline-block">
+      </h1>
+      <p class="mb-8 leading-relaxed">Jaiwik Biotech Pvt Ltd is equipped with world class production facilities that are both Sophisticated & Ultramodern to help the organization to meet the diversified requirement of the customers within the specified time frame. We are committed to achieving exceptional performance in all we do. We understands the value of continual improvement and commitment to our most valuable asset, our people. We have a team of talented and dedicated workforce which helps us to consistent supply of supreme-quality products in market.</p>
+      <p class="mb-8 leading-relaxed"> Jaiwik Biotech for unmatched dedication to quality, innovative research, and compassionate healthcare solutions. We're committed to elevating well-being through groundbreaking advancements and personalized patient care. </p>
+      <div class="flex justify-center">
+        <button class="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">Learn more</button> <hr>
+        <!--<button class="ml-4 inline-flex text-gray-700 bg-gray-100 border-0 py-2 px-6 focus:outline-none hover:bg-gray-200 rounded text-lg">Button</button>-->
+      </div>
+    
+    </div>
+  </div>   <hr>
+</section>
+
+
+ <!--PRODUCTS    -->
+ <div class="flex flex-wrap justify-center py-6 mb-12">
+  <h1 class="text-gray-900 font-medium title-font text-4xl mb-4">
+    <b>OUR PRODUCTS</b>
+  </h1>
+</div>
+
+
+    </div>
+    <div class="flex flex-wrap sm:-m-4 -mx-4 -mb-10 -mt-4">
+      <div class="p-4 md:w-1/3 sm:mb-0 mb-6">
+        <div class="rounded-lg h-64 overflow-hidden">
+          <img alt="content" class="object-cover object-center h-full w-full" src="image/hardgel (2).jpeg">
+        </div>
+        <h2 class="text-xl font-medium title-font text-gray-900 mt-5"><center><b>Tablets</b></center></h2>
+        <p class="text-base leading-relaxed mt-2">Jaiwik Biotech's innovative tablet formulations embody a harmonious fusion of science and compassion. Crafted with meticulous precision, our tablets encapsulate cutting-edge research to deliver optimal therapeutic impact. Each tablet represents a testament to our commitment to quality, efficacy, and patient well-being.</p>
+        <!--<a class="text-indigo-500 inline-flex items-center mt-3"-->
+         <!-- <svg fill="none" stroke="currentColor"   stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">-->
+            <path d="M5 12h14M12 5l7 7-7 7"></path>
+          </svg>
+        </a>
+      </div>
+      <div class="p-4 md:w-1/3 sm:mb-0 mb-6">
+        <div class="rounded-lg h-64 overflow-hidden">
+          <img alt="content" class="object-cover object-center h-full w-full" src="image/WhatsApp Image 2023-08-28 at 5.27.05 PM (1).jpeg">
+        </div>
+        <h2 class="text-xl font-medium title-font text-gray-900 mt-5"><center><b>Softgel Capsule</b></center></h2>
+        <p class="text-base leading-relaxed mt-2">Experience optimal health with Jaiwik Biotech's Softgel Capsules. Each expertly crafted capsule encapsulates potent nutrients, ensuring efficient absorption for enhanced well-being. With precision and care, our Softgel Capsules deliver a convenient and effective solution for your nutritional needs, promoting vitality and balance.</p>
+        <!--<a class="text-indigo-500 inline-flex items-center mt-3">Learn More
+          <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">-->
+            <path d="M5 12h14M12 5l7 7-7 7"></path>
+          </svg> 
+        </a>
+      </div>
+      <div class="p-4 md:w-1/3 sm:mb-0 mb-6">
+        <div class="rounded-lg h-64 overflow-hidden">
+          <img alt="content" class="object-cover object-center h-full w-full" src="image/hardgel (1).jpeg">
+        </div>
+        <h2 class="text-xl font-medium title-font text-gray-900 mt-5"><center><b>Hardgel Capsule</b></center></h2>
+        <p class="text-base leading-relaxed mt-2">Experience the power of nature with Jaiwik Biotech's Hardgel Capsules. Carefully crafted using premium ingredients, these capsules offer a convenient way to support your wellness journey. Embrace the benefits of natural health with every dose</p>
+        <a class="text-indigo-500 inline-flex items-center mt-3">
+          <!--<svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">-->
+            <path d="M5 12h14M12 5l7 7-7 7"></path>
+          </svg>
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+<!--PRODUCTS  1   -->
+<section class="text-gray-600 body-font">
+  <div class="container px-5 py-24 mx-auto">
+    <div class="flex flex-wrap -mx-4 -mb-10 text-center">
+      <div class="sm:w-1/2 mb-10 px-4">
+        <div class="rounded-lg h-64 overflow-hidden">
+          <img alt="content" class="object-cover object-center h-full w-full" src="image/2-e1684476680554.png">
+        </div>
+        <h2 class="title-font text-2xl font-medium text-gray-900 mt-6 mb-3">Syrups</h2>
+        <p class="leading-relaxed text-base">A healthier you with our range of syrups from Jaiwik Biotech. Savor wellness in every dose as we combine quality ingredients in delightful flavors. Prioritize your vitality while indulging in the goodness of our expertly crafted syrups. Your journey to a better lifestyle starts here.</p>
+       <!---- <button class="flex mx-auto mt-6 text-white bg-indigo-500 border-0 py-2 px-5 focus:outline-none hover:bg-indigo-600 rounded">Button</button>-->
+      </div>
+      <div class="sm:w-1/2 mb-10 px-4">
+        <div class="rounded-lg h-64 overflow-hidden">
+          <img alt="content" class="object-cover object-center h-full w-full" src="image/steroid-ointment-GettyImages-1179911371.jpg">
+        </div>
+        <h2 class="title-font text-2xl font-medium text-gray-900 mt-6 mb-3">Ointments</h2>
+        <p class="leading-relaxed text-base">The soothing touch of Jaiwik BiTech's ointments. In harmony with your wellness needs, our top-quality ointments are thoughtfully formulated to provide you with the utmost relief. Embark on a journey to healthier skin with us, and let the healing begin. Your skin's best friend – because you deserve care that's more than skin deep.</p>
+       <!----<button class="flex mx-auto mt-6 text-white bg-indigo-500 border-0 py-2 px-5 focus:outline-none hover:bg-indigo-600 rounded">Button</button>-->
+      </div>
+    </div>
+  </div>
+</section> </body><hr>>
+<!--PRODUCTS  1   -->
+<!--WHHY US    --> 
+<section class="text-gray-600 body-font">
+  <div class="container px-5 py-24 mx-auto">
+    <div class="text-center mb-20">
+      <h1 class="sm:text-3xl text-2xl font-medium text-center title-font text-gray-900 mb-4">Key Features Of Choosing Jaiwik Biotech</h1>
+      <p class="text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto">"Jaiwik Biotech excels through cutting-edge R&D, delivering innovative medicines for superior efficacy. Our precision manufacturing and stringent quality assurance ensure excellence, regulatory compliance, and patient well-being."</p>
+    </div>
+    <div class="flex flex-wrap lg:w-4/5 sm:mx-auto sm:mb-2 -mx-2">
+      <div class="p-2 sm:w-1/2 w-full">
+        <div class="bg-gray-100 rounded flex p-4 h-full items-center">
+          <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" class="text-indigo-500 w-6 h-6 flex-shrink-0 mr-4" viewBox="0 0 24 24">
+            <path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>
+            <path d="M22 4L12 14.01l-3-3"></path>
+          </svg>
+          <span class="title-font font-medium">Stringent Quality Checks</span>
+        </div>
+      </div> 
+      <div class="p-2 sm:w-1/2 w-full">
+        <div class="bg-gray-100 rounded flex p-4 h-full items-center">
+          <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" class="text-indigo-500 w-6 h-6 flex-shrink-0 mr-4" viewBox="0 0 24 24">
+            <path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>
+            <path d="M22 4L12 14.01l-3-3"></path>
+          </svg>
+          <span class="title-font font-medium">Advanced Manufacturing Technology</span>
+        </div>
+      </div>
+      <div class="p-2 sm:w-1/2 w-full">
+        <div class="bg-gray-100 rounded flex p-4 h-full items-center">
+          <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" class="text-indigo-500 w-6 h-6 flex-shrink-0 mr-4" viewBox="0 0 24 24">
+            <path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>
+            <path d="M22 4L12 14.01l-3-3"></path>
+          </svg>
+          <span class="title-font font-medium">Research and Development Expertise</span>
+        </div> 
+      </div>  
+      <div class="p-2 sm:w-1/2 w-full">
+        <div class="bg-gray-100 rounded flex p-4 h-full items-center">
+          <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" class="text-indigo-500 w-6 h-6 flex-shrink-0 mr-4" viewBox="0 0 24 24">
+            <path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>
+            <path d="M22 4L12 14.01l-3-3"></path>
+          </svg>
+          <span class="title-font font-medium">Regulatory Compliance</span>
+        </div>
+      </div>
+      <div class="p-2 sm:w-1/2 w-full">
+        <div class="bg-gray-100 rounded flex p-4 h-full items-center">
+          <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" class="text-indigo-500 w-6 h-6 flex-shrink-0 mr-4" viewBox="0 0 24 24">
+            <path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>
+            <path d="M22 4L12 14.01l-3-3"></path>
+          </svg>
+          <span class="title-font font-medium">Environmental Responsibility</span>
+        </div>
+      </div>
+      <div class="p-2 sm:w-1/2 w-full">
+        <div class="bg-gray-100 rounded flex p-4 h-full items-center">
+          <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" class="text-indigo-500 w-6 h-6 flex-shrink-0 mr-4" viewBox="0 0 24 24">
+            <path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>
+            <path d="M22 4L12 14.01l-3-3"></path>
+          </svg>
+          <span class="title-font font-medium">Fast Customer Support</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section><hr>
+<!--WHHY US   END  -->
+
+<!-- CERTIFICATES SLIDER  -->
+<div class="flex flex-wrap justify-center py-6 mb-12">
+  <h1 class="text-gray-900 font-medium title-font text-4xl mb-4">
+    <b>Accreditation</b>
+  </h1>
+</div>
+<section class="text-gray-600 body-font">
+  <div class="container px-5 py-24 mx-auto flex flex-wrap">
+    <div class="flex relative pt-10 pb-20 sm:items-center md:w-2/3 mx-auto">
+      <div class="h-full w-6 absolute inset-0 flex items-center justify-center">
+        <div class="h-full w-1 bg-gray-200 pointer-events-none"></div>
+      </div>
+      <div class="flex-shrink-0 w-6 h-6 rounded-full mt-10 sm:mt-0 inline-flex items-center justify-center bg-indigo-500 text-white relative z-10 title-font font-medium text-sm">1</div>
+      <div class="flex-grow md:pl-8 pl-6 flex sm:items-center items-start flex-col sm:flex-row">
+        <div class="flex-shrink-0 w-24 h-24 bg-indigo-100 text-indigo-500 rounded-full inline-flex items-center justify-center" ><img src="image/th.jpg">
+          <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-12 h-12" viewBox="0 0 24 24">
+            <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+          </svg>
+        </div>
+        <div class="flex-grow sm:pl-6 mt-6 sm:mt-0">
+          <h2 class="font-medium title-font text-gray-900 mb-1 text-xl">WHO-GMP</h2>
+          <p class="leading-relaxed">The World Health Organization (WHO) is a specialized United Nations agency responsible for international public health, coordinating health-related activities and providing guidance.</p>
+        </div>
+      </div>
+    </div>
+    <div class="flex relative pb-20 sm:items-center md:w-2/3 mx-auto">
+      <div class="h-full w-6 absolute inset-0 flex items-center justify-center">
+        <div class="h-full w-1 bg-gray-200 pointer-events-none"></div>
+      </div>
+      <div class="flex-shrink-0 w-6 h-6 rounded-full mt-10 sm:mt-0 inline-flex items-center justify-center bg-indigo-500 text-white relative z-10 title-font font-medium text-sm">2</div>
+      <div class="flex-grow md:pl-8 pl-6 flex sm:items-center items-start flex-col sm:flex-row">
+        <div class="flex-shrink-0 w-24 h-24 bg-indigo-100 text-indigo-500 rounded-full inline-flex items-center justify-center"><img src="image/glp-1-300x300.png">
+          <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-12 h-12" viewBox="0 0 24 24">
+            <path d="M22 12h-4l-3 9L9 3l-3 9H2"></path>
+          </svg>
+        </div>
+        <div class="flex-grow sm:pl-6 mt-6 sm:mt-0">
+          <h2 class="font-medium title-font text-gray-900 mb-1 text-xl">GLP</h2>
+          <p class="leading-relaxed">GLP (Good Laboratory Practice) are guidelines assuring reliability of non-clinical research by maintaining quality, integrity, and consistency in laboratory studies for regulatory purposes.</p>
+        </div>
+      </div>
+    </div>
+    <div class="flex relative pb-20 sm:items-center md:w-2/3 mx-auto">
+      <div class="h-full w-6 absolute inset-0 flex items-center justify-center">
+        <div class="h-full w-1 bg-gray-200 pointer-events-none"></div>
+      </div>
+      <div class="flex-shrink-0 w-6 h-6 rounded-full mt-10 sm:mt-0 inline-flex items-center justify-center bg-indigo-500 text-white relative z-10 title-font font-medium text-sm">3</div>
+      <div class="flex-grow md:pl-8 pl-6 flex sm:items-center items-start flex-col sm:flex-row">
+        <div class="flex-shrink-0 w-24 h-24 bg-indigo-100 text-indigo-500 rounded-full inline-flex items-center justify-center"><img src="image/gmo-1-300x300.png">
+          <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-12 h-12" viewBox="0 0 24 24">
+            <circle cx="12" cy="5" r="3"></circle>
+            <path d="M12 22V8M5 12H2a10 10 0 0020 0h-3"></path>
+          </svg>
+        </div>
+        <div class="flex-grow sm:pl-6 mt-6 sm:mt-0">
+          <h2 class="font-medium title-font text-gray-900 mb-1 text-xl">GMP</h2>
+          <p class="leading-relaxed">GMP stands for Good Manufacturing Practice. It's a quality assurance system ensuring consistent and controlled production in industries like pharmaceuticals, food, and cosmetics, meeting regulatory standards.</p>
+        </div>
+      </div>
+    </div>
+    <div class="flex relative pb-10 sm:items-center md:w-2/3 mx-auto">
+      <div class="h-full w-6 absolute inset-0 flex items-center justify-center">
+        <div class="h-full w-1 bg-gray-200 pointer-events-none"></div>
+      </div>
+      <div class="flex-shrink-0 w-6 h-6 rounded-full mt-10 sm:mt-0 inline-flex items-center justify-center bg-indigo-500 text-white relative z-10 title-font font-medium text-sm">4</div>
+      <div class="flex-grow md:pl-8 pl-6 flex sm:items-center items-start flex-col sm:flex-row">
+        <div class="flex-shrink-0 w-24 h-24 bg-indigo-100 text-indigo-500 rounded-full inline-flex items-center justify-center"><img src="image/iso-1-300x300.png">
+          <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-12 h-12" viewBox="0 0 24 24">
+            <path d="M20 21v-2a4 4 0 00-4-4H8a4 4 0 00-4 4v2"></path>
+            <circle cx="12" cy="7" r="4"></circle>
+          </svg>
+        </div>
+        <div class="flex-grow sm:pl-6 mt-6 sm:mt-0">
+          <h2 class="font-medium title-font text-gray-900 mb-1 text-xl">ISO</h2>
+          <p class="leading-relaxed">ISO stands for International Organization for Standardization. It develops and publishes international standards that ensure products, services, and systems are safe, efficient, and of good quality.</p>
+        </div>
+      </div>
+    </div>
+  </div><hr>
+</section>
+<!--pcp section-->
+<div class="flex flex-wrap justify-center py-6 mb-12">
+  <h1 class="text-gray-900 font-medium title-font text-4xl mb-4">
+    <b>PCP Pharma Franchise</b>
+  </h1>
+<section class="text-gray-600 body-font">
+  <div class="container px-5 py-24 mx-auto">
+    <div class="flex flex-wrap -mx-4 -mb-10 text-center">
+      <div class="sm:w-1/2 mb-10 px-4">
+        <div class="rounded-lg h-64 overflow-hidden">
+          <img alt="content" class="object-cover object-center h-full w-full" src="image/JAIWIK LOGO.png">
+        </div>
+        <h2 class="title-font text-2xl font-medium text-gray-900 mt-6 mb-3"></h2>
+        <p class="leading-relaxed text-base"></p>
+        <button class="flex mx-auto mt-6 text-white bg-indigo-500 border-0 py-2 px-5 focus:outline-none hover:bg-indigo-600 rounded">Learn more</button>
+      </div>
+      <div class="sm:w-1/2 mb-10 px-4">
+        <div class="rounded-lg h-64 overflow-hidden">
+          <img alt="content" class="object-cover object-center h-full w-full" src="image/OXIANT LOGO.png">
+        </div>
+        <!--<h2 class="title-font text-2xl font-medium text-gray-900 mt-6 mb-3">The Catalyzer</h2>
+        <p class="leading-relaxed text-base">Williamsburg occupy sustainable snackwave gochujang. Pinterest cornhole brunch, slow-carb neutra irony.</p>-->
+        <button class="flex mx-auto mt-6 text-white bg-indigo-500 border-0 py-2 px-5 focus:outline-none hover:bg-indigo-600 rounded">Learn more</button> 
+      </div>
+    </div>
+  </div><hr>
+</section>
+<!--YOUTUBE -->
+<div class="flex flex-wrap justify-center py-6 mb-12">
+  <h1 class="text-gray-900 font-medium title-font text-4xl mb-4">
+    <b>Jaiwik Biotech Plant</b> </h1></div>
+<section class="text-gray-600 body-font">
+  <div class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
+    <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0">
+       <iframe width="560" height="315" src="https://www.youtube.com/embed/https://jvJq-y9uJvg?si=uks-_hcIgEh5cJmQ" frameborder="0" allowfullscreen></iframe>
+      
+    </div>
+    <div class="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">
+      <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">Revolutionizing Biotech Industry: 
+        <br class="hidden lg:inline-block">
+      </h1>
+      <p class="mb-8 leading-relaxed"> Embark on a journey through the realm of advanced medical manufacturing with Jaiwik Biotech! Delve into the world of innovative processes, bioengineering, and revolutionary solutions that are redefining the landscape of medicine production for improved healthcare outcomes and a greener future.</p>
+      <div class="flex justify-center">
+        <button class="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">Watch Now</button>
+        <!--<button class="ml-4 inline-flex text-gray-700 bg-gray-100 border-0 py-2 px-6 focus:outline-none hover:bg-gray-200 rounded text-lg">Watch Now</button>-->
+      </div>
+    </div>
+  </div><hr>
+</section>
+<!--YOUTUBE-->
+
+<!--CONTACT-->
+
+<div class="flex flex-wrap justify-center py-6 mb-12">
+  <h1 class="text-gray-900 font-medium title-font text-4xl mb-4">
+    <b>Contact Us</b>
+  </h1>
+</div>
+
+
+
+
+
+<section class="text-gray-600 body-font relative">
+  <div class="container px-5 py-24 mx-auto flex sm:flex-nowrap flex-wrap">
+    <div class="lg:w-2/3 md:w-1/2 bg-gray-300 rounded-lg overflow-hidden sm:mr-10 p-10 flex items-end justify-start relative">
+      <iframe width="100%" height="100%" class="absolute inset-0" frameborder="0" title="map" marginheight="0" marginwidth="0" scrolling="no" src="https://goo.gl/maps/ke4knp4fbuvWCghF9" style="filter: grayscale(1) contrast(1.2) opacity(0.4);"></iframe>
+      <div class="bg-white relative flex flex-wrap py-6 rounded shadow-md">
+        <div class="lg:w-1/2 px-6">
+          <h2 class="title-font font-semibold text-gray-900 tracking-widest text-xs">ADDRESS</h2>
+          <p class="mt-1">Ist Floor, Plot No.18, Vivek Vihar, Gandhi Path West, Lalarpura, Near Vaishali Nagar Jaipur - 302034, Rajasthan, India</p>
+        </div>
+        <div class="lg:w-1/2 px-6 mt-4 lg:mt-0">
+          <h2 class="title-font font-semibold text-gray-900 tracking-widest text-xs">EMAIL</h2>
+          <a class="text-indigo-500 leading-relaxed">jaiwikindustries01@gmail.com</a>
+          <h2 class="title-font font-semibold text-gray-900 tracking-widest text-xs mt-4">PHONE</h2>
+          <p class="leading-relaxed">+91 08048975191</p>                                           
+        </div>
+      </div>
+    </div>
+    <div class="lg:w-1/3 md:w-1/2 bg-white flex flex-col md:ml-auto w-full md:py-8 mt-8 md:mt-0">
+      <h2 class="text-gray-900 text-lg mb-1 font-medium title-font">Feedback</h2>
+      <p class="leading-relaxed mb-5 text-gray-600">"Your feedback is invaluable to us. Help us improve by sharing your thoughts. Together, we can enhance your experience."</p>
+      <div class="relative mb-4">
+        <label for="name" class="leading-7 text-sm text-gray-600">Name</label>
+        <input type="text" id="name" name="name" class="w-full bg-white rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
+      </div>
+      <div class="relative mb-4">
+        <label for="email" class="leading-7 text-sm text-gray-600">Email</label>
+        <input type="email" id="email" name="email" class="w-full bg-white rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
+      </div>
+      <div class="relative mb-4">
+        <label for="message" class="leading-7 text-sm text-gray-600">Message</label>
+        <textarea id="message" name="message" class="w-full bg-white rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 h-32 text-base outline-none text-gray-700 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"></textarea>
+      </div>
+      <button class="text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">Send now</button>
+      <p class="text-xs text-gray-500 mt-3">Chicharrones blog helvetica normcore iceland tousled brook viral artisan.</p>
+    </div>
+  
+</div> <hr>
+</section>
+</div>>
+<!--footer -->
+
+<footer class="bg-grey-100 py-8">
+  <div class="container mx-auto flex items-center justify-between px-5">
+    <div class="flex items-center">
+      <a href="#" class="flex-shrink-0">
+        <img src="image/jaiwikl.png.png" alt="Jaiwik Biotech" class="w-40">
+      </a>
+      <p class="ml-4 text-gray-500 text-sm">© 2023 Jaiwik Biotech 
+        <a href="https://twitter.com/bombaymarketer" class="text-indigo-500 ml-1" rel="noopener noreferrer" target="_blank">@BombayMarketer</a>
+      </p>
+    </div>
+    <div class="flex space-x-4">
+      <a href="#" class="text-gray-500 hover:text-indigo-500">
+        <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
+          <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
+        </svg>
+      </a>
+      <a href="#" class="text-gray-500 hover:text-indigo-500">
+        <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
+          <path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"></path>
+        </svg>
+      </a>
+      <a href="#" class="text-gray-500 hover:text-indigo-500">
+        <svg class="w-6 h-6" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24">
+          <rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect>
+          <path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37zm1.5-4.87h.01"></path>
+        </svg>
+      </a>
+      <a href="#" class="text-gray-500 hover:text-indigo-500">
+        <svg class="w-6 h-6" fill="currentColor" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="0" viewBox="0 0 24 24">
+          <path stroke="none" d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z"></path>
+          <circle cx="4" cy="4" r="2" stroke="none"></circle> 
+        </svg>
+      </a>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
